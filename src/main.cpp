@@ -1,5 +1,4 @@
 #include "utils.hpp"
-#include "armour.hpp"
 #include "armor.hpp"
 
 
@@ -12,8 +11,10 @@ int main(){
         return -1;
     }
 
+    cout << "开始运行！" << endl;
     basicOperation(img); // 基础操作
     detectArmour(img2); // 装甲板识别
+    cout << "运行结束, 图片结果已保存到output/" << endl;
 
     return 0;
 }

@@ -9,8 +9,6 @@ add_executable(task02
     src/main.cpp
     src/utils.cpp
     src/utils.hpp
-    src/armour.hpp
-    src/armour.cpp
     src/armor.hpp
     src/armor.cpp
 )
